@@ -1,0 +1,17 @@
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: rgb(40, 33, 143);
+    }
+  
+    100% {
+      color: rgb(228, 228, 228);
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
